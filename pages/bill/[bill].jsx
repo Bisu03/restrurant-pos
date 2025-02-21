@@ -55,16 +55,16 @@ const Bill = () => {
           ref={componentRef}
         >
           <div className="flex justify-center w-full mt-2">
-            <Image
+            {/* <Image
               src="/logo.png"
               width={40}
               height={40}
               className="aspect-square"
               alt="Logo"
-            />
+            /> */}
           </div>
           <div className="text-center">
-            <h2 className="text-lg font-bold">আহারে গোপাল রেস্টুরেন্ট</h2>
+            <h2 className="text-lg font-bold">Popular Restrurant</h2>
             <h2 className="text-sm font-semibold">
               Salgechiya, Opposite Old D.M.Office, Tamluk - 721636
             </h2>
@@ -163,19 +163,7 @@ const Bill = () => {
                 {billingData?.payment_mode && (
                   <p>Paid By {billingData?.payment_mode}</p>
                 )}
-                <p className="font-semibold text-sm">Give Us Your Feedback & Win an Exciting Gift!</p>
-                <p>
-                  We value your feedback! Share your experience with us on
-                  WhatsApp at 9635322579 and stand a chance to win an exciting
-                  gift!
-                </p>
-                <p className="text-[9px]">
-                  **T&C Apply- Offer valid only for every new bill and feedback about our services, Customers who
-                  provide feedback on every bill have a chance to win, Gifts are
-                  subject to availability, The highest-rated feedback will
-                  receive a gift, Management reserves the right to modify or
-                  withdraw the offer at any time.**
-                </p>
+                
                 <p className="font-bold">**THANK YOU VISIT AGAIN**</p>
               </div>
             </>
